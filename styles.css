@@ -102,13 +102,22 @@ img {
   font-weight: bolder;
   line-height: 1.2;
   margin-bottom: 1rem;
+  transition: transform .5s linear 0.5s ;
+}
+
+#title:hover {
+    transform: translateY(-10px);
+    background-color: #000000;
+    color: red;
 }
 
 .lead {
   font-size: 1.5rem;
   color: #eee;
   font-weight: 100;
+  
 }
+
 
 #caption {
   color: rgb(240, 248, 255);
