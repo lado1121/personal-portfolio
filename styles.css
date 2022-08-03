@@ -275,6 +275,27 @@ div.btnbox{
   
 }
 
+.certbtn{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4rem;
+  text-align: center;
+  display: inline-block;
+  padding: .6rem 1.5rem;
+  border-radius: 20px;
+  border : none;
+  background-color: var(--primary-color);
+  transition: transform .5s ease-in-out;
+  cursor: pointer;
+}
+
+ 
+.certbtn:hover{
+  transform: translate(8px , 8px);
+  background-color: #000000;
+}
 
 
 /* SMARTPHONE */
