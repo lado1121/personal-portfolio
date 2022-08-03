@@ -44,7 +44,7 @@ img {
   text-align: center;
   display: inline-block;
   padding: .6rem 1.5rem;
-  border-radius: 3px;
+  border-radius: 20px;
   background-color: var(--primary-color);
   transition: all .5s ease-in-out;
 }
@@ -257,6 +257,46 @@ img {
   line-height: 1.5;
 }
 
+/* certification page */
+.certbody{
+  background-color: #000000;
+}
+
+div.btnbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 41.5rem;
+  background-color: #000000;
+  gap: 5rem;
+  
+}
+
+.certbtn{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 4rem;
+  text-align: center;
+  display: inline-block;
+  padding: .6rem 1.5rem;
+  border-radius: 20px;
+  border : none;
+  background-color: var(--primary-color);
+  transition: transform .5s ease-in-out;
+  cursor: pointer;
+}
+
+ 
+.certbtn:hover{
+  transform: translate(8px , 8px);
+}
+
+
 /* SMARTPHONE */
 @media (max-width: 600px) {
   #navbar {
@@ -284,4 +324,6 @@ img {
   #main-footer #creator {
     margin-top: 1rem;
   }
+
+  
 }
